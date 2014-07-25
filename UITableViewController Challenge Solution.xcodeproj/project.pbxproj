@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AB6553641981FBA900EA7C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6553631981FBA900EA7C09 /* AppDelegate.swift */; };
-		AB6553661981FBA900EA7C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6553651981FBA900EA7C09 /* ViewController.swift */; };
 		AB6553691981FBA900EA7C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6553671981FBA900EA7C09 /* Main.storyboard */; };
 		AB65536B1981FBA900EA7C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB65536A1981FBA900EA7C09 /* Images.xcassets */; };
 		AB6553771981FBAA00EA7C09 /* UITableViewController_Challenge_SolutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6553761981FBAA00EA7C09 /* UITableViewController_Challenge_SolutionTests.swift */; };
+		AB6553831981FD7B00EA7C09 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6553821981FD7B00EA7C09 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +28,12 @@
 		AB65535E1981FBA900EA7C09 /* UITableViewController Challenge Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewController Challenge Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6553621981FBA900EA7C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6553631981FBA900EA7C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB6553651981FBA900EA7C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB6553681981FBA900EA7C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB65536A1981FBA900EA7C09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB6553701981FBAA00EA7C09 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6553751981FBAA00EA7C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6553761981FBAA00EA7C09 /* UITableViewController_Challenge_SolutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewController_Challenge_SolutionTests.swift; sourceTree = "<group>"; };
+		AB6553821981FD7B00EA7C09 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ../MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				AB6553631981FBA900EA7C09 /* AppDelegate.swift */,
-				AB6553651981FBA900EA7C09 /* ViewController.swift */,
+				AB6553821981FD7B00EA7C09 /* MainTableViewController.swift */,
 				AB6553671981FBA900EA7C09 /* Main.storyboard */,
 				AB65536A1981FBA900EA7C09 /* Images.xcassets */,
 				AB6553611981FBA900EA7C09 /* Supporting Files */,
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6553661981FBA900EA7C09 /* ViewController.swift in Sources */,
+				AB6553831981FD7B00EA7C09 /* MainTableViewController.swift in Sources */,
 				AB6553641981FBA900EA7C09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
